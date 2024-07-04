@@ -1,0 +1,61 @@
+header{
+    height: 200px; 
+background-color: rgb(202, 185, 164);
+text-align: center;
+font-size:40px ;
+color: rgba(165, 42, 42, 0.492);
+background-image: url(https://cs8.pikabu.ru/post_img/big/2016/02/04/7/145458292112119207.jpg);
+}
+main{
+    height: 900px;
+    width: 1920px;
+    
+
+}
+.container{
+    height: 900px;
+    width: 1920px;
+    max-width: 100%;
+    background-color: rgb(139, 31, 31);
+}
+.block1{
+    width: 50%;
+    float: left;
+    background-color: rgba(165, 42, 42, 0.492);
+    font-size: 35px;
+    text-align:center;
+    text-decoration: double;
+} 
+.block2{
+    width: 50%;
+    float: right;
+    background-color:rgb(202,185,164);
+}
+.block3{
+  height: 450px;
+  background-color: blueviolet;
+}
+.block4{
+height: 450px;
+background-color: aquamarine;
+}
+
+
+footer{
+    height: 200px ; 
+    background-color: rgb(202, 185, 164);
+    text-align: center;
+    font-size:30px ;
+    color: rgba(235, 2, 2, 0.846);
+    }
+.social img{
+    width: 100px;
+    padding-left: 10px;
+    align-items: center;
+}
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
